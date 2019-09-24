@@ -1,3 +1,13 @@
 Monte Carlo Approach
+ : 수학적으로 구하기 힘든 값의 근사치를 어떻게 계산할까?
+   ex) 원주율 파이 값을 계산하기 위해 무수히 많은 점을 흩뿌려서 원의 넓이를 구하는 예
+ : 목표 지점에 도달할 수 있는 경로(Gn, 실제값)를 찾고 경로 상의 모든 지점(S)의 가치(V)를 업데이트 하는 방법
+   new_V(S) = old_V(S) + a(Gn - old_V(S))
+ : 한계 - 경로를 찾아야만 가치를 업데이트 함.
 
 Temporal Difference Learning
+ : Monte Carlo Approach 의 한계를 보완
+ : Action 을 취할때마다 업데이트
+   new_V(S) = old_V(S) + a(R + r*old_V(next_S) - old_V(S))
+ : 한계 - 처음에 이상한 방향으로 Action 을 취한다면 ....
+   보완 - 랜덤하게 방향을 정할 수 있음.
