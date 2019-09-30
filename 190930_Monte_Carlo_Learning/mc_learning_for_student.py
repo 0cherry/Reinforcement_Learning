@@ -37,6 +37,11 @@ class MCAgent:
                 #       - self.value_table
                 #       - self.learning_rate
 
+                # print(self.value_table[state])
+                # print(state)
+                G = reward + self.discount_factor * G
+                v_new = self.value_table[state] + self.learning_rate * (G - self.value_table[state])
+
                 # --------------------UNTIL HERE ------------------------#
                 self.value_table[state] = v_new
 
@@ -47,12 +52,22 @@ class MCAgent:
         # ------------------- FROM HERE -------------------------#
         # use : 
         #      - np.random.rand()
-        #      - self.epsilon
+        #      - self.epsilon = 0.1
         #      - self.possible_next_state_value
         #      - self.arg_max()
 
+        if np.random.rand() > self.epsilon:
+            action = np.random.choice(self.actions)
+        else:
+            next_state_values = self.possible_next_state_value(state)
+            action = self.arg_max(next_state_values)
 
-
+        # next_state_values = self.possible_next_state_value(state)
+        # selected_action = self.arg_max(next_state_values)
+        # action_list = [selected_action]*9
+        # action_list.append(np.random.randint(0, 3))
+        # action = action_list[np.random.randint(0, 9)]
+        # print(action)
 
         # --------------------UNTIL HERE ------------------------#
         return int(action)
