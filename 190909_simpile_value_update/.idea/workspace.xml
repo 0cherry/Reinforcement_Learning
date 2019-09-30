@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e363a530-6d61-433d-86ec-4f998fb5836e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../190916_value_iteration/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/190909_Exercise01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/190909_Exercise01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../190916_value_iteration/.idea/190916_value_iteration.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../190916_value_iteration/.idea/190916_value_iteration.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../190916_value_iteration/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../190916_value_iteration/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../190916_value_iteration/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../190916_value_iteration/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../190916_value_iteration/value_iteration_for_student.py" beforeDir="false" afterPath="$PROJECT_DIR$/../190916_value_iteration/value_iteration_for_student.py" afterDir="false" />
-    </list>
+    <list default="true" id="e363a530-6d61-433d-86ec-4f998fb5836e" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +28,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../190930_" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -118,7 +108,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
