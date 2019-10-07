@@ -56,7 +56,7 @@ class MCAgent:
         #      - self.possible_next_state_value
         #      - self.arg_max()
 
-        if np.random.rand() > self.epsilon:
+        if np.random.rand() < self.epsilon:
             action = np.random.choice(self.actions)
         else:
             next_state_values = self.possible_next_state_value(state)
